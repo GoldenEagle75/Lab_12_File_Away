@@ -35,6 +35,10 @@ public class Main {
                 reader.close();
                 System.out.println("\n\nData file read!");
             }
+            else {
+                System.out.println("You must choose a file! Exiting...");
+                System.exit(0);
+            }
         }
 
         catch (FileNotFoundException e){
